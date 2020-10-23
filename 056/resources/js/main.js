@@ -28,7 +28,7 @@
             scrollTop: $("#nations3").offset().top
         }, 2000);
         $([document.documentElement, document.body]).delay("2500").animate({
-            scrollTop: $("#3specials4").offset().top
+            scrollTop: $("#specials4").offset().top
         }, 2000);
         $([document.documentElement, document.body]).delay("2500").animate({
             scrollTop: $("#company5").offset().top
