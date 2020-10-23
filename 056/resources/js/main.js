@@ -1,4 +1,3 @@
-// document ready
 (function ($) {
 
     $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup', function(e){
