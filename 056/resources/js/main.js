@@ -54,7 +54,7 @@
         $(".fade").each(function() {
           var objectTop = $(this).offset().top ;
           if (objectTop < windowBottom) {
-            if ($(this).css("opacity")==0) {$(this).delay(1200).fadeTo(550,1);}
+            if ($(this).css("opacity")==0) {$(this).delay(800).fadeTo(450,1);}
           }
         });
       }).scroll();
