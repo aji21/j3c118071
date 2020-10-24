@@ -26,19 +26,19 @@
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#nations3").offset().top
         }, 2000);
-        $([document.documentElement, document.body]).delay("2500").animate({
+        $([document.documentElement, document.body]).delay("3500").animate({
             scrollTop: $("#specials4").offset().top
         }, 2000);
-        $([document.documentElement, document.body]).delay("2500").animate({
+        $([document.documentElement, document.body]).delay("3500").animate({
             scrollTop: $("#company5").offset().top
         }, 2000);
-        $([document.documentElement, document.body]).delay("2500").animate({
+        $([document.documentElement, document.body]).delay("3500").animate({
             scrollTop: $("#work6").offset().top
         }, 2000);
-        $([document.documentElement, document.body]).delay("2500").animate({
+        $([document.documentElement, document.body]).delay("3500").animate({
             scrollTop: $("#recruit7").offset().top
         }, 2000);
-        $([document.documentElement, document.body]).delay("2500").animate({
+        $([document.documentElement, document.body]).delay("3500").animate({
             scrollTop: $("#footer9").offset().top
         }, 2000);
     });
@@ -54,7 +54,7 @@
         $(".fade").each(function() {
           var objectTop = $(this).offset().top ;
           if (objectTop < windowBottom) {
-            if ($(this).css("opacity")==0) {$(this).delay(800).fadeTo(450,1);}
+            if ($(this).css("opacity")==0) {$(this).delay(1200).fadeTo(550,1);}
           }
         });
       }).scroll();
