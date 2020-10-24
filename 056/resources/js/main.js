@@ -25,37 +25,22 @@
     $("#scrollbtn").click(function() {
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#nations3").offset().top
-        }, 2000);
-        $([document.documentElement, document.body]).delay("3500").animate({
-            scrollTop: $("#specials4").offset().top
-        }, 2000);
-        $([document.documentElement, document.body]).delay("3500").animate({
-            scrollTop: $("#company5").offset().top
-        }, 2000);
-        $([document.documentElement, document.body]).delay("3500").animate({
-            scrollTop: $("#work6").offset().top
-        }, 2000);
-        $([document.documentElement, document.body]).delay("3500").animate({
-            scrollTop: $("#recruit7").offset().top
-        }, 2000);
-        $([document.documentElement, document.body]).delay("3500").animate({
-            scrollTop: $("#footer9").offset().top
-        }, 2000);
-    });
-    
-    $("#gotop").click(function() {
+        }, 500);
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#nav1").offset().top
-        }, 2000);
-    });
+            scrollTop: $("#specials4").offset().top
+        }, 500);
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#company5").offset().top
+        }, 500);
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#work6").offset().top
+        }, 500);
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#recruit7").offset().top
+        }, 500);
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#footer9").offset().top
+        }, 500);
 
-    $(window).scroll(function() {
-        var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-        $(".fade").each(function() {
-          var objectTop = $(this).offset().top ;
-          if (objectTop < windowBottom) {
-            if ($(this).css("opacity")==0) {$(this).delay(800).fadeTo(450,1);}
-          }
-        });
-      }).scroll();
+    });
 })(jQuery);    
